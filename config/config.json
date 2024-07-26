@@ -1,0 +1,159 @@
+{
+	"masp":{
+		"common":{
+			"crossValidation":true,
+			"crossNum":5,
+			"dc":0.4,
+			"budget": 0.03,
+			"pretrainRounds":600,
+			"incrementRounds":100,
+			"enhancementThreshold":0.001,
+			"coldStartLabelsProportion":0.33,
+			"trainDataMatrix":[],
+			"testDataMatrix":[],
+			"trainLabelMatrix":[],
+				"testLabelMatrix":[],
+			"numInstances":[],
+			"numConditions":0,
+			"numLabels":0,
+			"learningRate":0.001,
+			"mobp":0.6
+		},
+		"default":{
+			"fileName":"../datasets/DataMat/Flags.mat",
+			"outputFileName":"../results/Flags.txt",
+			"fullConnectLayerNumNodes":[0, 64, 64],
+			"parallelLayerNumNodes":[64, 64, 2],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Art":{
+			"fileName":"../datasets/DataMat/Art.mat",
+			"outputFileName":"../results/Art.txt",
+			"fullConnectLayerNumNodes":[1300,1000, 52],
+			"parallelLayerNumNodes":[462, 50, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Birds":{
+			"fileName":"../datasets/DataMat/Birds.mat",
+			"outputFileName":"../results/Birds.txt",
+			"fullConnectLayerNumNodes":[1900 , 1500 , 38],
+			"parallelLayerNumNodes":[260 , 100 , 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Business":{
+			"fileName":"../datasets/DataMat/Business.mat",
+			"outputFileName":"../results/Business.txt",
+			"fullConnectLayerNumNodes":[4500, 800, 60],
+			"parallelLayerNumNodes":[438, 150, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Cal500":{
+			"fileName":"../datasets/DataMat/Cal500.mat",
+			"outputFileName":"../results/Cal500.txt",
+			"fullConnectLayerNumNodes":[5568, 32, 348],
+			"parallelLayerNumNodes":[68, 32, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Emotion":{
+			"fileName":"../datasets/DataMat/Emotion.mat",
+			"outputFileName":"../results/Emotion.txt",
+			"fullConnectLayerNumNodes":[600,100,12],
+			"parallelLayerNumNodes":[72,100,1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Enron":{
+			"fileName":"../datasets/DataMat/Enron.mat",
+			"outputFileName":"../results/Enron.txt",
+			"fullConnectLayerNumNodes":[2650, 150, 106],
+			"parallelLayerNumNodes":[1001, 50, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Flags":{
+			"fileName":"../datasets/DataMat/Flags.mat",
+			"outputFileName":"../results/Flags.txt",
+			"fullConnectLayerNumNodes":[70, 100, 14],
+			"parallelLayerNumNodes":[19, 10, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Image":{
+			"fileName":"../datasets/DataMat/Image.mat",
+			"outputFileName":"../results/Image.txt",
+			"fullConnectLayerNumNodes":[1500, 300 , 10],
+			"parallelLayerNumNodes":[294, 300 , 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Scene":{
+			"fileName":"../datasets/DataMat/Scene.mat",
+			"outputFileName":"../results/Scene.txt",
+			"fullConnectLayerNumNodes":[1800, 700, 12],
+			"parallelLayerNumNodes":[294, 300, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Social":{
+			"fileName":"../datasets/DataMat/Social.mat",
+			"outputFileName":"../results/Social.txt",
+			"fullConnectLayerNumNodes":[7800, 800, 78],
+			"parallelLayerNumNodes":[1047, 200, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"Yeast":{
+			"fileName":"../datasets/DataMat/Yeast.mat",
+			"outputFileName":"../results/Yeast.txt",
+			"fullConnectLayerNumNodes":[1400, 200, 28],
+			"parallelLayerNumNodes":[103, 100, 1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"VirusGO":{
+			"fileName":"../datasets/DataMat/VirusGO.mat",
+			"outputFileName":"../results/VirusGO.txt",
+			"fullConnectLayerNumNodes":[600, 512,12],
+			"parallelLayerNumNodes":[749, 100 ,1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		"WaterQuality":{
+			"fileName":"../datasets/DataMat/WaterQuality.mat",
+			"outputFileName":"../results/WaterQuality.txt",
+			"fullConnectLayerNumNodes":[896,256,28],
+			"parallelLayerNumNodes":[16,64,1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+		},
+		 "GpositiveGO":{
+			"fileName":"../datasets/DataMat/GpositiveGO.mat",
+			"outputFileName":"../results/GpositiveGO.txt",
+			"fullConnectLayerNumNodes":[2000,550,8],
+			"parallelLayerNumNodes":[912,500,1],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+	     },
+		"CHD49":{
+			"fileName":"../datasets/DataMat/CHD49.mat",
+			"outputFileName":"../results/CHD49.txt",
+			"fullConnectLayerNumNodes":[96 , 20 , 12],
+			"parallelLayerNumNodes":[49 , 16 , 1 ],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+	     },
+		"Recreation":{
+			"fileName":"../datasets/DataMat/Recreation.mat",
+			"outputFileName":"../results/Recreation.txt",
+			"fullConnectLayerNumNodes":[2200 , 800 , 44],
+			"parallelLayerNumNodes":[606 , 100 , 1 ],
+			"parallel_activators":"GG",
+			"full_connect_activators":"ss"
+	     }
+	}
+}
